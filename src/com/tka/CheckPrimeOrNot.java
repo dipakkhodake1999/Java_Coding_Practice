@@ -12,14 +12,18 @@ public class CheckPrimeOrNot {
 			if(num%i==0) {
 				isPrime=false;
 				break;
+				
 			}
 		}
 		if(isPrime) {
 			System.out.println(num+" is prime number");
+			System.out.println("prime number are which is only divisible by own and one ");
 		}else{
 			System.out.println(num +" is not a prime number");
+			System.out.println("done");
 	
 		}
+		
 	}
 
 }
