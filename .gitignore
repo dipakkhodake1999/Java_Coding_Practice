@@ -1,0 +1,7 @@
+# Ignore Eclipse-specific files
+/.settings/
+/bin/
+/target/
+/.metadata/
+/.project
+.classpath
